@@ -52,7 +52,7 @@ export default function Services() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="max-w-2xl mb-14">
           <h2 className="text-3xl sm:text-4xl font-bold text-[#1a1a1a] leading-tight mb-4">
-            Büyüme sisteminizin tüm parçalarını kuruyoruz.
+            Meta Ads, Google Ads, CRM ve Satış Otomasyonu Sistemleri Kuruyoruz.
           </h2>
         </div>
 
