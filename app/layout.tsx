@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
-import { SITE_URL, GA_MEASUREMENT_ID } from "@/lib/config";
+import { SITE_URL, GA_MEASUREMENT_ID, SOCIAL_LINKS } from "@/lib/config";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -71,14 +71,16 @@ export default function RootLayout({
               url: SITE_URL,
               description:
                 "Reklamdan satışa uzanan müşteri kazanım sistemleri. Meta Ads, Google Ads, CRM ve WhatsApp otomasyonu.",
+              telephone: "+90-554-665-23-68",
               contactPoint: {
                 "@type": "ContactPoint",
+                telephone: "+90-554-665-23-68",
                 contactType: "customer service",
                 availableLanguage: "Turkish",
               },
               sameAs: [
-                "https://instagram.com/akislab",
-                "https://linkedin.com/company/akislab",
+                SOCIAL_LINKS.instagram,
+                SOCIAL_LINKS.linkedin,
               ],
             }),
           }}
