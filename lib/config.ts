@@ -1,5 +1,7 @@
 export const WHATSAPP_NUMBER = "905546652368"; // Format: country code + number, no +
 
+export const GA_MEASUREMENT_ID = "G-M0DL9ZWHY4";
+
 export const WHATSAPP_DEFAULT_MESSAGE =
   "Merhaba AkışLab, işletmem için reklam ve otomasyon hizmetleri hakkında bilgi almak istiyorum.";
 
