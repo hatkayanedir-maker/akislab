@@ -10,32 +10,46 @@ const inter = Inter({
   display: "swap",
 });
 
+const SEO_TITLE = "AkışLab | Dijital Reklam ve Satış Otomasyonu";
+const SEO_DESCRIPTION =
+  "Meta ve Google reklamlarından gelen potansiyel müşterileri CRM, WhatsApp ve akıllı otomasyonlarla satış fırsatlarına dönüştüren sistemler kuruyoruz.";
+
 export const metadata: Metadata = {
-  title: "AkışLab | Dijital Reklam, CRM & WhatsApp Otomasyonu",
-  description:
-    "AkışLab; Meta Ads, Google Ads, CRM ve WhatsApp otomasyonlarını bir araya getirerek işletmeler için ölçülebilir müşteri kazanım sistemleri kurar.",
+  title: SEO_TITLE,
+  description: SEO_DESCRIPTION,
   metadataBase: new URL(SITE_URL),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "AkışLab | Dijital Reklam, CRM & WhatsApp Otomasyonu",
-    description:
-      "Reklamdan satışa uzanan müşteri kazanım sistemleri. Meta Ads, Google Ads, CRM ve WhatsApp otomasyonu.",
-    url: SITE_URL,
+    title: SEO_TITLE,
+    description: SEO_DESCRIPTION,
+    url: "/",
     siteName: "AkışLab",
     locale: "tr_TR",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "AkışLab - Dijital Reklam ve Satış Otomasyonu",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AkışLab | Dijital Reklam, CRM & WhatsApp Otomasyonu",
-    description:
-      "Reklamdan satışa uzanan müşteri kazanım sistemleri. Meta Ads, Google Ads, CRM ve WhatsApp otomasyonu.",
+    title: SEO_TITLE,
+    description: SEO_DESCRIPTION,
+    images: ["/og-image.png"],
   },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
 };
 

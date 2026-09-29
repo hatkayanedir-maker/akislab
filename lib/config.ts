@@ -13,4 +13,4 @@ export const SOCIAL_LINKS = {
 
 export const CONTACT_EMAIL = "info@akislab.com.tr";
 
-export const SITE_URL = "https://akislab.com.tr";
+export const SITE_URL = "https://akislab.com";
