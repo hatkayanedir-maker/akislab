@@ -15,8 +15,8 @@ const footerLinks = [
   {
     label: "Yasal",
     links: [
-      { href: "#", label: "KVKK" },
-      { href: "#", label: "Gizlilik Politikası" },
+      { href: "/privacy", label: "Gizlilik Politikası" },
+      { href: "/data-deletion", label: "Veri Silme" },
     ],
   },
 ];
